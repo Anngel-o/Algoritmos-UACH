@@ -1,0 +1,11 @@
+NOTACIÓN BIG O
+BigO es la asintota por arriba (limite inferior) de una función de tiempo de ejecución
+Cualquier funcion o línea de código se considera:
+O(1) o tiempo constante siempre y cuando no sea un ciclo, no tenga recursión o no sea una llamada
+a una función que a su vez no sea de tiempo constante, el único ciclo valido es en el que incremente o
+decremente un numero constante independientemente de la entrada
+O(n) o tiempo lineal cuando la variable del ciclo va incrementando o decrementando por un numero constante
+en base a una entrada
+O(n^n) cuando n numero de ciclos están anidados
+O(log n) en un ciclo donde no se incremente o decremente, sino que se divida o multiplique
+O[log(log n)] en un ciclo donde se incremente de forma exponencial
